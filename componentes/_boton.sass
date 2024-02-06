@@ -1,0 +1,38 @@
+
+@mixin boton()
+    background: #16222958
+    font-family: $font
+    width: 200px
+    height: 70px
+    align-content: center
+    border-radius: 5px
+    font-weight: 800
+    color: #fff
+
+
+.perfil_boton
+    display: grid
+    justify-content: center
+    @include boton()
+    animation: colorBoton 10s linear alternate infinite
+    
+    
+#boton
+    display: grid
+    justify-content: center
+    gap: 20px
+    #boton-borde
+        border: #000000
+        border-radius: 5px
+        padding: 8px 10px 8px 7px
+        width: 220px
+        border-style: groove
+        &:hover
+            background-color: $click
+
+//botones footer
+
+.red-footer
+    display: flex
+    justify-content: center
+    gap: 20px

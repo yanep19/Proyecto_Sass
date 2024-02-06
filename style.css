@@ -1,0 +1,369 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background: #21454e;
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1000%26quot%3b)' fill='none'%3e%3crect width='1440' height='560' x='0' y='0' fill='%230e2a47'%3e%3c/rect%3e%3cpath d='M239.82547867576474 274.92015581032257L263.89319828655465 358.85426881130417 347.82731128753625 334.7865492005143 323.75959167674637 250.85243619953266z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M4.169%2c245.615C29.256%2c247.124%2c54.62%2c236.022%2c67.119%2c214.218C79.561%2c192.513%2c74.596%2c166.101%2c62.21%2c144.364C49.68%2c122.375%2c29.476%2c103.399%2c4.169%2c103.748C-20.686%2c104.091%2c-40.173%2c123.632%2c-51.163%2c145.928C-60.889%2c165.661%2c-57.578%2c188.123%2c-46.901%2c207.359C-35.837%2c227.291%2c-18.587%2c244.246%2c4.169%2c245.615' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M699.5471925498421 198.3118008725561L676.1853417523441 363.3982742883557 812.2540930029778 311.1663743910571z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M503.3925377763776 235.36003914178895L453.7892569372776 204.36446919128423 432.09754243107056 294.26717542518645z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M172.7220120179304 470.98575421295357L247.66043410046444 371.73604852227436 140.0051967923602 356.60609161090935z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3cpath d='M622.1343207732607 86.16413162433321L566.3186861774074 143.96291323179696 680.9246758865296 198.78697432184504z' fill='rgba(28%2c 83%2c 142%2c 0.4)' class='triangle-float2'%3e%3c/path%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1000'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cstyle%3e %40keyframes float1 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-10px%2c 0)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float1 %7b animation: float1 5s infinite%3b %7d %40keyframes float2 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(-5px%2c -5px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float2 %7b animation: float2 4s infinite%3b %7d %40keyframes float3 %7b 0%25%7btransform: translate(0%2c 0)%7d 50%25%7btransform: translate(0%2c -10px)%7d 100%25%7btransform: translate(0%2c 0)%7d %7d .triangle-float3 %7b animation: float3 6s infinite%3b %7d %3c/style%3e%3c/defs%3e%3c/svg%3e");
+  width: 100%;
+}
+
+a:link, a:active, a:visited {
+  text-decoration: none;
+  color: #4a889a;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+a:link:hover, a:active:hover, a:visited:hover {
+  color: #313123;
+  transform: scale(1.2);
+}
+
+.barra-lateral {
+  width: 100%;
+  background: #d1e4e7;
+  color: red;
+  display: flex;
+  justify-content: center;
+  font-size: 20px;
+  gap: 50px;
+  padding: 30px 70px 0px 20px;
+  height: 100px;
+}
+
+footer {
+  background: #141618;
+  width: 100%;
+  height: 200px;
+  color: rgba(209, 228, 231, 0.4274509804);
+  padding-top: 100px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: grid;
+  justify-content: center;
+}
+
+#img-central {
+  width: 400px;
+  height: 450px;
+  display: grid;
+  justify-content: center;
+}
+
+#caption1 {
+  width: 25px;
+  height: 25px;
+  transform: scale;
+}
+
+#central {
+  align-content: center;
+  font-size: 7.5rem;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  color: white;
+  padding-top: 5rem;
+}
+
+/* Pagina Sobre mi */
+#contacto {
+  display: grid;
+  align-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
+#contacto:hover {
+  color: white;
+}
+
+#contactame {
+  display: grid;
+  align-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+}
+#contactame:hover {
+  color: white;
+}
+
+/* Animaciones */
+@keyframes colorBoton {
+  0% {
+    background-color: #4c218d;
+  }
+  20% {
+    background-color: #116d61;
+  }
+  40% {
+    background-color: #0c7e62;
+  }
+  60% {
+    background-color: #062ecf;
+  }
+  80% {
+    background-color: #141618;
+  }
+  100% {
+    background-color: #847770;
+  }
+}
+@keyframes ampliarContenedor {
+  0% {
+    transform: translateX(0px);
+  }
+  50% {
+    transform: translateY(10px) scale(1.2);
+  }
+  100% {
+    transform: translateX(0px);
+  }
+}
+.perfil_boton {
+  display: grid;
+  justify-content: center;
+  background: rgba(22, 34, 41, 0.3450980392);
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 200px;
+  height: 70px;
+  align-content: center;
+  border-radius: 5px;
+  font-weight: 800;
+  color: #fff;
+  animation: colorBoton 10s linear alternate infinite;
+}
+
+#boton {
+  display: grid;
+  justify-content: center;
+  gap: 20px;
+}
+#boton #boton-borde {
+  border: #000000;
+  border-radius: 5px;
+  padding: 8px 10px 8px 7px;
+  width: 220px;
+  border-style: groove;
+}
+#boton #boton-borde:hover {
+  background-color: white;
+}
+
+.red-footer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#titulo {
+  display: grid;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+}
+#titulo:hover {
+  color: white;
+}
+#titulo-introduccion {
+  display: grid;
+  justify-content: center;
+  text-align: center;
+  margin-left: 20px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 20px;
+  color: white;
+}
+#titulo-introduccion:hover {
+  color: #747a77;
+}
+
+h1 {
+  display: grid;
+  justify-content: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+}
+h1:hover {
+  color: white;
+}
+
+h3 {
+  display: grid;
+  justify-content: center;
+  font-size: 30px;
+}
+
+.concepto {
+  display: grid;
+  justify-content: left;
+  width: 100%;
+  height: 730px;
+  background-color: rgba(14, 41, 71, 0.5529411765);
+  padding-top: 50px;
+}
+
+.concepto2 {
+  display: grid;
+  justify-content: left;
+  width: 100%;
+  height: 730px;
+  background-color: rgba(14, 41, 71, 0.5529411765);
+  padding-top: 50px;
+}
+
+.dos {
+  display: grid;
+  grid-template-columns: 50% 50%;
+}
+
+.descripcion {
+  display: grid;
+  grid-template-columns: 95% 5%;
+  justify-content: left;
+  color: rgba(206, 230, 247, 0.5058823529);
+  text-justify: center;
+  text-align: left;
+  padding-left: 50px;
+  font-size: 23px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  width: 70%;
+  height: 300px;
+}
+
+.contenedor-imagen {
+  display: grid;
+  justify-content: center;
+}
+
+#caption {
+  width: 40px;
+  height: 40px;
+}
+
+#img-perfil {
+  width: 260px;
+  height: 350px;
+  border-radius: 700px;
+  background: rgba(16, 110, 142, 0.12);
+}
+
+.contenedor {
+  display: flex;
+  justify-content: center;
+  border: 100px;
+  border-style: black;
+  gap: 30px;
+}
+.contenedor #contenedor-proyectos {
+  width: 500px;
+  height: 480px;
+  background-color: #3f5d7a;
+  padding-top: 50px;
+  text-align: center;
+  border-radius: 10px;
+  filter: drop-shadow(-2px 2px 3px rgba(0, 0, 0, 0.7));
+  gap: 15px;
+}
+.contenedor #contenedor-proyectos:hover {
+  border-radius: 40px;
+  filter: drop-shadow(5px 5px 5px rgba(255, 255, 255, 0.323));
+}
+.contenedor #contenedor-img {
+  width: 300px;
+  height: 200px;
+  justify-content: right;
+}
+.contenedor #contenedor-img:hover {
+  animation: ampliarContenedor 2s linear infinite;
+}
+.contenedor #contenedor-nombre {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: white;
+  font-size: 20px;
+  padding-top: 20px;
+}
+.contenedor #contenedor-descripcion {
+  color: black;
+  font-size: 17px;
+  justify-items: center;
+}
+
+#img-redes {
+  display: grid;
+  justify-content: center;
+  animation: ampliarContenedor 2s alternate infinite;
+}
+
+.redes {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  align-items: center;
+}
+
+#redes-instagram {
+  background: #3f5d7a;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  color: #e2e4ae;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: grid;
+  align-items: center;
+  text-align: center;
+}
+#redes-instagram:hover {
+  background: #787a74;
+}
+
+#redes-whatsapp {
+  background: #3f5d7a;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  color: #e2e4ae;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: grid;
+  align-items: center;
+  text-align: center;
+}
+#redes-whatsapp:hover {
+  background: #787a74;
+}
+
+#redes-correo {
+  background: #3f5d7a;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  color: #e2e4ae;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: grid;
+  align-items: center;
+  text-align: center;
+}
+#redes-correo:hover {
+  background: #787a74;
+}
+
+#redes-github {
+  background: #3f5d7a;
+  width: 100px;
+  height: 100px;
+  border-radius: 100px;
+  color: #e2e4ae;
+  font-weight: 400;
+  font-size: 14px;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  display: grid;
+  align-items: center;
+  text-align: center;
+}
+#redes-github:hover {
+  background: #787a74;
+}/*# sourceMappingURL=style.css.map */
